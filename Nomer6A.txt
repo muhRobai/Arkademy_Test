@@ -1,0 +1,1 @@
+SELECT name as nama_programer, count(names) as jumlah_skil FROM `users` left join skills on id = user_id
